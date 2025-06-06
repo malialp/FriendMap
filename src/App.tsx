@@ -3,6 +3,8 @@ import Graph from "./components/Graph.tsx";
 import Menu from "./components/Menu.tsx";
 import { Toaster } from "react-hot-toast";
 
+import { Analytics } from "@vercel/analytics/react";
+
 const App = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -81,6 +83,7 @@ const App = () => {
           },
         }}
       />
+      <Analytics />
     </div>
   );
 };
