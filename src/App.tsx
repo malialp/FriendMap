@@ -4,6 +4,7 @@ import Menu from "./components/Menu.tsx";
 import { Toaster } from "react-hot-toast";
 
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -84,6 +85,7 @@ const App = () => {
         }}
       />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 };
