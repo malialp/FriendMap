@@ -131,7 +131,7 @@ const Menu = ({ onClose }: MenuProps) => {
       {/* Header */}
       <div className={`mb-6 md:mb-8 ${onClose ? "mt-16 md:mt-0" : ""}`}>
         <h1 className="text-2xl md:text-3xl font-bold text-white mb-2">
-          FriendGraph
+          FriendMap
         </h1>
         <p className="text-gray-400 text-sm leading-relaxed">
           Arkadaşlık ağınızı görselleştirin. Kişilerinizi, aralarındaki
